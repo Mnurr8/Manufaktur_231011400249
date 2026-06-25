@@ -74,11 +74,11 @@ Import file tersebut ke MySQL sebelum menjalankan aplikasi.
 
 ### Data Produk
 
-![Data Produk](screenshots/data-produk.png)
+![Data Produk](screenshots/produk.png)
 
 ### Data Produksi
 
-![Data Produksi](screenshots/data-produksi.png)
+![Data Produksi](screenshots/produksi.png)
 
 ### Laporan
 
