@@ -108,9 +108,21 @@ Manufaktur_231011400249
 └── README.md
 ```
 
+## Konsep yang Digunakan
+
+- Object Oriented Programming (OOP)
+- Model View Controller (MVC)
+- Data Access Object (DAO)
+- Java Database Connectivity (JDBC)
 ---
 
 ## Author
 
 **Muhamad Nurdin**
 **NIM:** 231011400249
+
+---
+
+## License
+
+Project ini dibuat untuk memenuhi tugas akhir Mata Kuliah Pemrograman II.
