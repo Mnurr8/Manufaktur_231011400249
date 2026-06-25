@@ -2,63 +2,65 @@
 
 ## Identitas Mahasiswa
 
-- **Nama:** Muhamad Nurdin
-- **NIM:** 231011400249
-- **Mata Kuliah:** Pemrograman II
-- **Project Akhir:** Sistem Informasi Manajemen Produksi Manufaktur
+* **Nama:** Muhamad Nurdin
+* **NIM:** 231011400249
+* **Mata Kuliah:** Pemrograman II
+* **Project Akhir:** Sistem Informasi Manajemen Produksi Manufaktur
 
 ---
 
 ## Deskripsi Project
 
-Sistem Informasi Manajemen Produksi Manufaktur merupakan aplikasi desktop berbasis Java Swing yang digunakan untuk mengelola data produk dan data produksi pada perusahaan manufaktur. Aplikasi ini menerapkan konsep CRUD (Create, Read, Update, Delete), Login, MVC, DAO, JDBC, pencarian data, serta pembuatan laporan yang dapat dicetak.
+Sistem Informasi Manajemen Produksi Manufaktur merupakan aplikasi desktop berbasis **Java Swing** yang dirancang untuk membantu pengelolaan data produk dan data produksi pada perusahaan manufaktur. Aplikasi ini menerapkan konsep **CRUD (Create, Read, Update, Delete)**, **Object-Oriented Programming (OOP)**, **Model View Controller (MVC)**, **Data Access Object (DAO)**, serta **Java Database Connectivity (JDBC)** untuk mengelola dan mengakses data secara terstruktur. Selain itu, aplikasi juga dilengkapi dengan fitur pencarian data, pembuatan laporan, dan pencetakan laporan sehingga dapat membantu proses pengelolaan produksi menjadi lebih efektif dan efisien.
 
 ---
 
 ## Fitur
 
-- Login User
-- Menu Utama
-- CRUD Data Produk
-- CRUD Data Produksi
-- Pencarian Data Produk dan Produksi
-- Laporan Produk
-- Laporan Produksi
-- Cetak Laporan
-- Logout
+* Login User
+* Menu Utama
+* CRUD Data Produk
+* CRUD Data Produksi
+* Pencarian Data Produk
+* Pencarian Data Produksi
+* Laporan Data Produk
+* Laporan Data Produksi
+* Cetak Laporan
+* Logout
 
 ---
 
 ## Teknologi
 
-- Java
-- Java Swing
-- MySQL
-- JDBC
-- MVC (Model View Controller)
-- DAO (Data Access Object)
-- Apache NetBeans
+* Java
+* Java Swing
+* MySQL
+* JDBC (Java Database Connectivity)
+* MVC (Model View Controller)
+* DAO (Data Access Object)
+* Apache NetBeans IDE
 
 ---
 
 ## Database
 
-File database terdapat pada:
+File database yang digunakan pada aplikasi ini terdapat pada:
 
 ```text
 db_manufaktur_231011400249.sql
 ```
 
-Import file tersebut ke MySQL sebelum menjalankan aplikasi.
+Import file tersebut ke dalam **MySQL** sebelum menjalankan aplikasi.
 
 ---
 
 ## Cara Menjalankan
 
-1. Import database `db_manufaktur_231011400249.sql` ke MySQL.
-2. Buka project menggunakan Apache NetBeans.
-3. Sesuaikan konfigurasi database pada `KoneksiDB.java`.
-4. Jalankan aplikasi melalui `LoginForm.java`.
+1. Import file database `db_manufaktur_231011400249.sql` ke MySQL.
+2. Buka project menggunakan **Apache NetBeans IDE**.
+3. Pastikan konfigurasi koneksi database pada file `KoneksiDB.java` telah sesuai.
+4. Jalankan aplikasi melalui file `LoginForm.java`.
+5. Login menggunakan akun yang tersedia pada database.
 
 ---
 
@@ -82,23 +84,33 @@ Import file tersebut ke MySQL sebelum menjalankan aplikasi.
 
 ### Laporan
 
-![Laporan](screenshots/Laporan.png)
+![Laporan](screenshots/laporan.png)
 
 ---
 
 ## Struktur Project
 
 ```text
-src/
-├── config
-├── dao
-├── model
-└── view
+Manufaktur_231011400249
+│
+├── lib
+├── nbproject
+├── screenshots
+├── src
+│   ├── config
+│   ├── dao
+│   ├── model
+│   └── view
+├── .gitignore
+├── build.xml
+├── db_manufaktur_231011400249.sql
+├── manifest.mf
+└── README.md
 ```
 
 ---
 
 ## Author
 
-**Muhamad Nurdin**  
-NIM: **231011400249**
+**Muhamad Nurdin**
+**NIM:** 231011400249
