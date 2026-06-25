@@ -84,7 +84,7 @@ Import file tersebut ke dalam **MySQL** sebelum menjalankan aplikasi.
 
 ### Laporan
 
-![Laporan](screenshots/laporan.png)
+![Laporan](screenshots/Laporan.png)
 
 ---
 
